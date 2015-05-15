@@ -98,6 +98,8 @@ getUsefulPathArr(default_rootpath, function() {
     ReadMeHandler.rmReadmeFile();
     //删除compass精灵图片缓存文件夹
     ImgHandler.rmCompassSpriteDir();
+    //删除无用图片
+    ImgHandler.rmOldImgWithSpecificSuffix();
     //删除js文件中的注释
     JsHandler.rmJsComments();
 });
