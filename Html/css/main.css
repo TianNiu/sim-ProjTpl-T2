@@ -13,13 +13,13 @@
 
 .fr, .right { float: right; }
 
-.ttct { text-align: center; }
+.ttct { text-align: center !important; }
 
 .ttl { text-align: left !important; }
 
 .ttr { text-align: right !important; }
 
-.ttbd { font-weight: bold; }
+.ttbd { font-weight: bold !important; }
 
 *, *:before, *:after { -moz-box-sizing: inherit; -webkit-box-sizing: inherit; box-sizing: inherit; -webkit-text-size-adjust: none; }
 
@@ -36,33 +36,13 @@ table { width: 100%; }
 
 /* foundation,end*/
 /* component*/
-.tab .hd-rap { font-size: 14px; border-bottom: 1px solid #90c0f2; }
-.tab .hd-rap a { color: #555; }
-.tab .hd-rap a.it { display: block; float: left; padding: 4px 22px; background-color: #eaeaea; margin-right: 5px; }
-.tab .hd-rap a.it:hover { text-decoration: none; }
-.tab .hd-rap a.it.act { background-color: #5ca6f3; color: #fff; }
-.tab .hd-rap .more-rap { padding: 4px 12px; float: right; }
-.tab .hd-rap a.more { padding: 4px 12px; float: right; }
-
-.tab-T1 .hd-rap { font-size: 16px; }
-
-.table { border: 1px solid #ccc; }
-.table thead { font-size: 12px; font-weight: bold; color: #888; }
-.table thead tr th { padding: 5px; }
-.table tbody { font-size: 14px; font-weight: normal; color: #000; }
-.table tbody tr td { padding: 5px; }
-
-.table-T1 { border-width: 0px; }
-
-/* custom_plugin*/
-.soga-box { color: #333; }
-
-.in .soga-box { color: #1DA2EB; }
-
-/* custom_plugin,end*/
+/* >>custom_plugin*/
+/* >>custom_plugin,end*/
 /* component,end*/
 /* structure*/
-/* example(EP)*/
+/* >>example(IN)*/
+/* >>example(IN),end*/
+/* >>example(EP)*/
 /* EP-top-rap*/
 .EP-top-rap { background-color: #9BD7FB; }
 .EP-top { width: 1000px; margin: 0px auto; height: 60px; }
@@ -98,7 +78,7 @@ table { width: 100%; }
 .EP-foot { font-size: 14px; color: #555; background-color: #eaeaea; padding: 15px 0px; }
 .EP-foot p { text-align: center; line-height: 20px; }
 
-/* example(EP),end*/
+/* >>example(EP),end*/
 /* structure,end*/
 
 /*# sourceMappingURL=main.css.map */
